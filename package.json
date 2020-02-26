@@ -1,0 +1,33 @@
+{
+  "name": "WALPE",
+  "displayName": "Update your Wallpaper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "build",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Harsh",
+  "license": "MIT",
+  "dependencies": {
+    "images-downloader": "^1.0.3",
+    "jquery": "^3.3.1",
+    "request": "^2.88.0",
+    "wallpaper": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.9",
+    "electron-builder": "^20.28.4"
+  },
+  "build": {
+    "appId": "com.jamzi.quickstart",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico",
+      "publisherName": "Liam"
+    }
+  }
+}
