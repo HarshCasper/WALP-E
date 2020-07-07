@@ -19,7 +19,7 @@
     "wallpaper": "^3.0.0"
   },
   "devDependencies": {
-    "electron": "^2.0.9",
+    "electron": "^7.2.4",
     "electron-builder": "^20.28.4"
   },
   "build": {
